@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="3dp"
+    app:cardCornerRadius="3dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackgroundBorderless">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+            
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/party"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/going"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="50+ YPlanners have been"
+                android:layout_gravity="center_vertical"/>
+            
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <az.events.others.CustomImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/party1"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:alpha="0.1"/>
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:transitionName="transition"
+                android:src="@drawable/ic_like"
+                android:layout_gravity="top|right"
+                android:layout_margin="10dp"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom">
+
+                <FrameLayout
+                    android:id="@+id/shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:alpha="0.5"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Land: National Museum"
+                        android:textColor="#ffffff"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="12sp"
+                            android:layout_height="12sp"
+                            android:src="@drawable/ic_location"
+                            android:layout_gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/venue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The National Museum"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#6FBB7B"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Experinece, Multiple Dates"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:text="$12"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"/>
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="az.events.fragments.FragmentThird">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tickets"
+            android:textSize="25sp"
+            android:textColor="#555555"
+            />
+
+        <ImageView
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:src="@drawable/ticket"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your tickets will appear here."
+            android:textColor="#555555"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

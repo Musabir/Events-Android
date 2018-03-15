@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1082310354156",
+    "project_id": "events-177212"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082310354156:android:2714e8a6525752ed",
+        "android_client_info": {
+          "package_name": "az.events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082310354156-eegq46qqaa2faqtej5nppnaomaodk29r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "az.events",
+            "certificate_hash": "c3d479fb6e1a13ea15d3cd814f1daf8e85daacd0"
+          }
+        },
+        {
+          "client_id": "1082310354156-mc95g4f4v0prmdlt4u3495d842e0t80h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCQxe7q-AxfY0eHtUI4-zrVjhE-3JtKzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
